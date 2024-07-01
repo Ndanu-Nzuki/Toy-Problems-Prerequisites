@@ -74,6 +74,10 @@ function nssfRates (){
 function netSalary (){
     return grossSalary - totalDeductions;
 }
+
+console.log ("Your payee is:", payeeRate());
+console.log ("Your NHIF deduction is:", nhifRates());
+console.log ("Your NSSF deduction is:", nssfRates());
 console.log ("Your net salary` is:", netSalary());
 
 netSalary();
