@@ -10,7 +10,9 @@ Speed detector
 Declare const speed limit as 70 (as it is not changeable)
 Prompt user to input the speed of the car (value should be an integer)
 Compare input speed to the set limit (70). If it iis equal or less than speed limit it should return ok. 
-If the speed is over the limit by 5kms, driver should get a demerit point. Speed less the speed limit
+If the speed is over the limit by 5kms, driver should get a demerit point. Speed less the speed limit divided by 5.
+Any additional demerit point should be added to the initial demerit points already given.
+If the demerit points >12, output should be “License suspended”.
 
 
 Challenge 3
