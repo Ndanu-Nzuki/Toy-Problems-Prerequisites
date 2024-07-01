@@ -18,7 +18,8 @@ function calculateStudentGrade() {
     }
      // Output the grade
      return(`The grade for ${marks} is ${grade}`);
-     
+
+    //Outputs error message incase value entered is less than 0, greater than 100 or is not an integer.
     if (isNaN(marks) || marks < 0 || marks > 100) {
         console.log("Error, please enter a number between 0 and 100.");
         return;
